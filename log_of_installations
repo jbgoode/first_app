@@ -1,0 +1,256 @@
+Installing Ruby from source to: /home/john/.rvm/rubies/ruby-1.9.2-p290, this may take a while depending on your cpu(s)...
+
+ruby-1.9.2-p290 - #fetching 
+ruby-1.9.2-p290 - #downloading ruby-1.9.2-p290, this may take a while depending on your connection...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 8604k  100 8604k    0     0   327k      0  0:00:26  0:00:26 --:--:--  395k
+ruby-1.9.2-p290 - #extracting ruby-1.9.2-p290 to /home/john/.rvm/src/ruby-1.9.2-p290
+ruby-1.9.2-p290 - #extracted to /home/john/.rvm/src/ruby-1.9.2-p290
+ruby-1.9.2-p290 - #configuring 
+ruby-1.9.2-p290 - #compiling 
+ruby-1.9.2-p290 - #installing 
+Retrieving rubygems-1.8.10
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  243k  100  243k    0     0   835k      0 --:--:-- --:--:-- --:--:--  995k
+Extracting rubygems-1.8.10 ...
+Removing old Rubygems files...
+Installing rubygems-1.8.10 for ruby-1.9.2-p290 ...
+Installation of rubygems completed successfully.
+ruby-1.9.2-p290 - adjusting #shebangs for (gem irb erb ri rdoc testrb rake).
+ruby-1.9.2-p290 - #importing default gemsets (/home/john/.rvm/gemsets/)
+Install of ruby-1.9.2-p290 - #complete 
+[john@FedoraDev ~]$ rvm --create use 1.9.2@rails3tutorial
+Using /home/john/.rvm/gems/ruby-1.9.2-p290 with gemset rails3tutorial
+[john@FedoraDev ~]$ rvm --default use 1.9.2@rails3tutorial
+Using /home/john/.rvm/gems/ruby-1.9.2-p290 with gemset rails3tutorial
+[john@FedoraDev ~]$ which gem
+~/.rvm/rubies/ruby-1.9.2-p290/bin/gem
+[john@FedoraDev ~]$ gem update --system
+Updating rubygems-update
+Fetching: rubygems-update-1.8.15.gem (100%)
+Successfully installed rubygems-update-1.8.15
+Installing RubyGems 1.8.15
+RubyGems 1.8.15 installed
+
+== 1.8.15 / 2012-01-06
+
+* 1 bug fix:
+
+  * Don't eager load yaml, it creates a bad loop. Fixes #256
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/home/john/.rvm/rubies/ruby-1.9.2-p290/bin/gem
+
+RubyGems system software updated
+[john@FedoraDev ~]$ sudo gem install rails --version 3.0.1
+[sudo] password for john: 
+Sorry, try again.
+[sudo] password for john: 
+sudo: gem: command not found
+[john@FedoraDev ~]$ which gem
+~/.rvm/rubies/ruby-1.9.2-p290/bin/gem
+[john@FedoraDev ~]$ gem install rails --version 3.0.1
+Fetching: activesupport-3.0.1.gem (100%)
+Fetching: builder-2.1.2.gem (100%)
+WARNING: builder-2.1.2 has an invalid nil value for @cert_chain
+Fetching: i18n-0.4.2.gem (100%)
+Fetching: activemodel-3.0.1.gem (100%)
+Fetching: rack-1.2.5.gem (100%)
+Fetching: rack-test-0.5.7.gem (100%)
+Fetching: rack-mount-0.6.14.gem (100%)
+Fetching: tzinfo-0.3.31.gem (100%)
+Fetching: abstract-1.0.0.gem (100%)
+WARNING: abstract-1.0.0 has an invalid nil value for @cert_chain
+Fetching: erubis-2.6.6.gem (100%)
+Fetching: actionpack-3.0.1.gem (100%)
+Fetching: arel-1.0.1.gem (100%)
+Fetching: activerecord-3.0.1.gem (100%)
+Fetching: activeresource-3.0.1.gem (100%)
+Fetching: mime-types-1.17.2.gem (100%)
+Fetching: polyglot-0.3.3.gem (100%)
+Fetching: treetop-1.4.10.gem (100%)
+Fetching: mail-2.2.19.gem (100%)
+Fetching: actionmailer-3.0.1.gem (100%)
+Fetching: rake-0.9.2.2.gem (100%)
+Fetching: thor-0.14.6.gem (100%)
+Fetching: railties-3.0.1.gem (100%)
+Fetching: rails-3.0.1.gem (100%)
+Successfully installed activesupport-3.0.1
+Successfully installed builder-2.1.2
+Successfully installed i18n-0.4.2
+Successfully installed activemodel-3.0.1
+Successfully installed rack-1.2.5
+Successfully installed rack-test-0.5.7
+Successfully installed rack-mount-0.6.14
+Successfully installed tzinfo-0.3.31
+Successfully installed abstract-1.0.0
+Successfully installed erubis-2.6.6
+Successfully installed actionpack-3.0.1
+Successfully installed arel-1.0.1
+Successfully installed activerecord-3.0.1
+Successfully installed activeresource-3.0.1
+Successfully installed mime-types-1.17.2
+Successfully installed polyglot-0.3.3
+Successfully installed treetop-1.4.10
+Successfully installed mail-2.2.19
+Successfully installed actionmailer-3.0.1
+Successfully installed rake-0.9.2.2
+Successfully installed thor-0.14.6
+Successfully installed railties-3.0.1
+Successfully installed rails-3.0.1
+23 gems installed
+Installing ri documentation for activesupport-3.0.1...
+Installing ri documentation for builder-2.1.2...
+Installing ri documentation for i18n-0.4.2...
+Installing ri documentation for activemodel-3.0.1...
+Installing ri documentation for rack-1.2.5...
+Installing ri documentation for rack-test-0.5.7...
+Installing ri documentation for rack-mount-0.6.14...
+Installing ri documentation for tzinfo-0.3.31...
+Installing ri documentation for abstract-1.0.0...
+Installing ri documentation for erubis-2.6.6...
+Installing ri documentation for actionpack-3.0.1...
+Installing ri documentation for arel-1.0.1...
+Installing ri documentation for activerecord-3.0.1...
+Installing ri documentation for activeresource-3.0.1...
+Installing ri documentation for mime-types-1.17.2...
+Installing ri documentation for polyglot-0.3.3...
+Installing ri documentation for treetop-1.4.10...
+Installing ri documentation for mail-2.2.19...
+Installing ri documentation for actionmailer-3.0.1...
+Installing ri documentation for rake-0.9.2.2...
+Installing ri documentation for thor-0.14.6...
+Installing ri documentation for railties-3.0.1...
+Installing ri documentation for rails-3.0.1...
+Installing RDoc documentation for activesupport-3.0.1...
+Installing RDoc documentation for builder-2.1.2...
+Installing RDoc documentation for i18n-0.4.2...
+Installing RDoc documentation for activemodel-3.0.1...
+Installing RDoc documentation for rack-1.2.5...
+Installing RDoc documentation for rack-test-0.5.7...
+Installing RDoc documentation for rack-mount-0.6.14...
+Installing RDoc documentation for tzinfo-0.3.31...
+Installing RDoc documentation for abstract-1.0.0...
+Installing RDoc documentation for erubis-2.6.6...
+Installing RDoc documentation for actionpack-3.0.1...
+Installing RDoc documentation for arel-1.0.1...
+Installing RDoc documentation for activerecord-3.0.1...
+Installing RDoc documentation for activeresource-3.0.1...
+Installing RDoc documentation for mime-types-1.17.2...
+Installing RDoc documentation for polyglot-0.3.3...
+Installing RDoc documentation for treetop-1.4.10...
+Installing RDoc documentation for mail-2.2.19...
+Installing RDoc documentation for actionmailer-3.0.1...
+Installing RDoc documentation for rake-0.9.2.2...
+Installing RDoc documentation for thor-0.14.6...
+Installing RDoc documentation for railties-3.0.1...
+Installing RDoc documentation for rails-3.0.1...
+[john@FedoraDev ~]$ rails -v
+Rails 3.0.1
+[john@FedoraDev ~]$ mkdir rails_projects
+[john@FedoraDev ~]$ cd rails_projects
+[john@FedoraDev rails_projects]$ ls
+[john@FedoraDev rails_projects]$ rails new first_app
+      create  
+      create  README
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/mailers
+      create  app/models
+      create  app/views/layouts/application.html.erb
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/secret_token.rb
+      create  config/initializers/session_store.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  doc
+      create  doc/README_FOR_APP
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.gitkeep
+      create  log
+      create  log/server.log
+      create  log/production.log
+      create  log/development.log
+      create  log/test.log
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/index.html
+      create  public/robots.txt
+      create  public/images
+      create  public/images/rails.png
+      create  public/stylesheets
+      create  public/stylesheets/.gitkeep
+      create  public/javascripts
+      create  public/javascripts/application.js
+      create  public/javascripts/controls.js
+      create  public/javascripts/dragdrop.js
+      create  public/javascripts/effects.js
+      create  public/javascripts/prototype.js
+      create  public/javascripts/rails.js
+      create  script
+      create  script/rails
+      create  test
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/performance/browsing_test.rb
+      create  test/test_helper.rb
+      create  test/unit
+      create  tmp
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+      create  vendor/plugins
+      create  vendor/plugins/.gitkeep
+[john@FedoraDev rails_projects]$ cd first_app
+[john@FedoraDev first_app]$ ls -la
+total 80
+drwxrwxr-x. 13 john john 4096 Jan 12 18:31 .
+drwxrwxr-x.  3 john john 4096 Jan 12 18:31 ..
+drwxrwxr-x.  7 john john 4096 Jan 12 18:31 app
+drwxrwxr-x.  5 john john 4096 Jan 12 18:31 config
+-rw-rw-r--.  1 john john  158 Jan 12 18:31 config.ru
+drwxrwxr-x.  2 john john 4096 Jan 12 18:31 db
+drwxrwxr-x.  2 john john 4096 Jan 12 18:31 doc
+-rw-rw-r--.  1 john john  665 Jan 12 18:31 Gemfile
+-rw-rw-r--.  1 john john   40 Jan 12 18:31 .gitignore
+drwxrwxr-x.  3 john john 4096 Jan 12 18:31 lib
+drwxrwxr-x.  2 john john 4096 Jan 12 18:31 log
+drwxrwxr-x.  5 john john 4096 Jan 12 18:31 public
+-rw-rw-r--.  1 john john  268 Jan 12 18:31 Rakefile
+-rw-rw-r--.  1 john john 9130 Jan 12 18:31 README
+drwxr-xr-x.  2 john john 4096 Jan 12 18:31 script
+drwxrwxr-x.  7 john john 4096 Jan 12 18:31 test
+drwxrwxr-x.  6 john john 4096 Jan 12 18:31 tmp
+drwxrwxr-x.  3 john john 4096 Jan 12 18:31 vendor
+

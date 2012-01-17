@@ -1,0 +1,265 @@
+[john@FedoraDev rails_projects]$ cd first_app
+[john@FedoraDev first_app]$ ls -la
+total 80
+drwxrwxr-x. 13 john john 4096 Jan 12 18:31 .
+drwxrwxr-x.  3 john john 4096 Jan 12 18:31 ..
+drwxrwxr-x.  7 john john 4096 Jan 12 18:31 app
+drwxrwxr-x.  5 john john 4096 Jan 12 18:31 config
+-rw-rw-r--.  1 john john  158 Jan 12 18:31 config.ru
+drwxrwxr-x.  2 john john 4096 Jan 12 18:31 db
+drwxrwxr-x.  2 john john 4096 Jan 12 18:31 doc
+-rw-rw-r--.  1 john john  665 Jan 12 18:31 Gemfile
+-rw-rw-r--.  1 john john   40 Jan 12 18:31 .gitignore
+drwxrwxr-x.  3 john john 4096 Jan 12 18:31 lib
+drwxrwxr-x.  2 john john 4096 Jan 12 18:31 log
+drwxrwxr-x.  5 john john 4096 Jan 12 18:31 public
+-rw-rw-r--.  1 john john  268 Jan 12 18:31 Rakefile
+-rw-rw-r--.  1 john john 9130 Jan 12 18:31 README
+drwxr-xr-x.  2 john john 4096 Jan 12 18:31 script
+drwxrwxr-x.  7 john john 4096 Jan 12 18:31 test
+drwxrwxr-x.  6 john john 4096 Jan 12 18:31 tmp
+drwxrwxr-x.  3 john john 4096 Jan 12 18:31 vendor
+[john@FedoraDev first_app]$ gedit Gemfile
+
+** (gedit:15196): CRITICAL **: gedit_spell_checker_language_to_key: assertion `lang != NULL' failed
+[john@FedoraDev first_app]$ yum --help
+Loaded plugins: langpacks, presto, refresh-packagekit
+Usage: yum [options] COMMAND
+
+List of Commands:
+
+check          Check for problems in the rpmdb
+check-update   Check for available package updates
+clean          Remove cached data
+deplist        List a package's dependencies
+distribution-synchronization Synchronize installed packages to the latest available versions
+downgrade      downgrade a package
+erase          Remove a package or packages from your system
+groups         Display, or use, the groups information
+help           Display a helpful usage message
+history        Display, or use, the transaction history
+info           Display details about a package or group of packages
+install        Install a package or packages on your system
+list           List a package or groups of packages
+load-transaction load a saved transaction from filename
+makecache      Generate the metadata cache
+provides       Find what package provides the given value
+reinstall      reinstall a package
+repolist       Display the configured software repositories
+resolvedep     Determine which package provides the given dependency
+search         Search package details for the given string
+shell          Run an interactive yum shell
+update         Update a package or packages on your system
+upgrade        Update packages taking obsoletes into account
+version        Display a version for the machine and/or available repos.
+
+
+Options:
+  -h, --help            show this help message and exit
+  -t, --tolerant        be tolerant of errors
+  -C, --cacheonly       run entirely from system cache, don't update cache
+  -c [config file], --config=[config file]
+                        config file location
+  -R [minutes], --randomwait=[minutes]
+                        maximum command wait time
+  -d [debug level], --debuglevel=[debug level]
+                        debugging output level
+  --showduplicates      show duplicates, in repos, in list/search commands
+  -e [error level], --errorlevel=[error level]
+                        error output level
+  --rpmverbosity=[debug level name]
+                        debugging output level for rpm
+  -q, --quiet           quiet operation
+  -v, --verbose         verbose operation
+  -y, --assumeyes       answer yes for all questions
+  --assumeno            answer no for all questions
+  --version             show Yum version and exit
+  --installroot=[path]  set install root
+  --enablerepo=[repo]   enable one or more repositories (wildcards allowed)
+  --disablerepo=[repo]  disable one or more repositories (wildcards allowed)
+  -x [package], --exclude=[package]
+                        exclude package(s) by name or glob
+  --disableexcludes=[repo]
+                        disable exclude from main, for a repo or for
+                        everything
+  --obsoletes           enable obsoletes processing during updates
+  --noplugins           disable Yum plugins
+  --nogpgcheck          disable gpg signature checking
+  --disableplugin=[plugin]
+                        disable plugins by name
+  --enableplugin=[plugin]
+                        enable plugins by name
+  --skip-broken         skip packages with depsolving problems
+  --color=COLOR         control whether color is used
+  --releasever=RELEASEVER
+                        set value of $releasever in yum config and repo files
+  --setopt=SETOPTS      set arbitrary config and repo options
+  --disablepresto       disable Presto plugin and don't download any deltarpms
+
+  Plugin Options:
+[john@FedoraDev first_app]$ man yum
+[john@FedoraDev first_app]$ yum list available *-dev
+Loaded plugins: langpacks, presto, refresh-packagekit
+rpmfusion-free-updates                                   | 3.3 kB     00:00     
+rpmfusion-free-updates/primary_db                        | 153 kB     00:00     
+rpmfusion-nonfree-updates                                | 3.3 kB     00:00     
+rpmfusion-nonfree-updates/primary_db                     |  54 kB     00:00     
+updates/metalink                                         |  17 kB     00:00     
+updates                                                  | 4.7 kB     00:00     
+updates/primary_db                                       | 3.8 MB     00:08     
+updates/group_gz                                         | 431 kB     00:03     
+Available Packages
+cabal-dev.x86_64                        0.9-1.fc16                        fedora
+[john@FedoraDev first_app]$ sudo yum install libxslt-dev libxml2_dev libsqlite3_dev
+[sudo] password for john: 
+Loaded plugins: langpacks, presto, refresh-packagekit
+rpmfusion-free-updates                                   | 3.3 kB     00:00     
+rpmfusion-nonfree-updates                                | 3.3 kB     00:00     
+updates/metalink                                         |  17 kB     00:00     
+Setting up Install Process
+No package libxslt-dev available.
+No package libxml2_dev available.
+No package libsqlite3_dev available.
+Error: Nothing to do
+[john@FedoraDev first_app]$ pwd
+/home/john/rails_projects/first_app
+[john@FedoraDev first_app]$ bundle install
+Fetching source index for http://rubygems.org/
+Using rake (0.9.2.2) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.1) 
+Using builder (2.1.2) 
+Using i18n (0.4.2) 
+Using activemodel (3.0.1) 
+Using erubis (2.6.6) 
+Using rack (1.2.5) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.31) 
+Using actionpack (3.0.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.1) 
+Using arel (1.0.1) 
+Using activerecord (3.0.1) 
+Using activeresource (3.0.1) 
+Using bundler (1.0.21) 
+Using thor (0.14.6) 
+Using railties (3.0.1) 
+Using rails (3.0.1) 
+Installing sqlite3-ruby (1.2.5) with native extensions 
+Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+        /home/john/.rvm/rubies/ruby-1.9.2-p290/bin/ruby extconf.rb 
+checking for fdatasync() in -lrt... yes
+checking for sqlite3.h... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/john/.rvm/rubies/ruby-1.9.2-p290/bin/ruby
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+	--with-rtlib
+	--without-rtlib
+
+
+Gem files will remain installed in /home/john/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/sqlite3-ruby-1.2.5 for inspection.
+Results logged to /home/john/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/sqlite3-ruby-1.2.5/ext/sqlite3_api/gem_make.out
+An error occured while installing sqlite3-ruby (1.2.5), and Bundler cannot continue.
+Make sure that `gem install sqlite3-ruby -v '1.2.5'` succeeds before bundling.
+[john@FedoraDev first_app]$ gem install sqlite3-ruby -v '1.2.5'
+Building native extensions.  This could take a while...
+ERROR:  Error installing sqlite3-ruby:
+	ERROR: Failed to build gem native extension.
+
+        /home/john/.rvm/rubies/ruby-1.9.2-p290/bin/ruby extconf.rb
+checking for fdatasync() in -lrt... yes
+checking for sqlite3.h... no
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/john/.rvm/rubies/ruby-1.9.2-p290/bin/ruby
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+	--with-rtlib
+	--without-rtlib
+
+
+Gem files will remain installed in /home/john/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/sqlite3-ruby-1.2.5 for inspection.
+Results logged to /home/john/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/sqlite3-ruby-1.2.5/ext/sqlite3_api/gem_make.out
+[john@FedoraDev first_app]$ ^C
+[john@FedoraDev first_app]$ ls -l
+total 72
+drwxrwxr-x. 7 john john 4096 Jan 12 18:31 app
+drwxrwxr-x. 5 john john 4096 Jan 12 18:31 config
+-rw-rw-r--. 1 john john  158 Jan 12 18:31 config.ru
+drwxrwxr-x. 2 john john 4096 Jan 12 18:31 db
+drwxrwxr-x. 2 john john 4096 Jan 12 18:31 doc
+-rw-rw-r--. 1 john john  674 Jan 12 19:33 Gemfile
+-rw-rw-r--. 1 john john  665 Jan 12 18:31 Gemfile~
+drwxrwxr-x. 3 john john 4096 Jan 12 18:31 lib
+drwxrwxr-x. 2 john john 4096 Jan 12 18:31 log
+drwxrwxr-x. 5 john john 4096 Jan 12 18:31 public
+-rw-rw-r--. 1 john john  268 Jan 12 18:31 Rakefile
+-rw-rw-r--. 1 john john 9130 Jan 12 18:31 README
+drwxr-xr-x. 2 john john 4096 Jan 12 18:31 script
+drwxrwxr-x. 7 john john 4096 Jan 12 18:31 test
+drwxrwxr-x. 6 john john 4096 Jan 12 18:31 tmp
+drwxrwxr-x. 3 john john 4096 Jan 12 18:31 vendor
+[john@FedoraDev first_app]$ pwd
+/home/john/rails_projects/first_app
+[john@FedoraDev first_app]$ gedit /home/john/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/sqlite3-ruby-1.2.5/ext/sqlite3_api/gem_make.out
+[john@FedoraDev first_app]$ ^C
+[john@FedoraDev first_app]$ cd /home/john/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/sqlite3-ruby-1.2.5/
+[john@FedoraDev sqlite3-ruby-1.2.5]$ ls -la
+total 80
+drwxrwxr-x.  7 john john  4096 Jan 13 07:36 .
+drwxr-xr-x. 27 john john  4096 Jan 13 07:36 ..
+-rw-r--r--.  1 john john  3042 Jan 13 07:36 ChangeLog.cvs
+drwxrwxr-x.  3 john john  4096 Jan 13 07:36 ext
+drwxrwxr-x.  2 john john  4096 Jan 13 07:36 faq
+-rw-r--r--.  1 john john  2365 Jan 13 07:36 History.txt
+drwxrwxr-x.  3 john john  4096 Jan 13 07:36 lib
+-rw-r--r--.  1 john john  1500 Jan 13 07:36 LICENSE
+-rw-r--r--.  1 john john   893 Jan 13 07:36 Manifest.txt
+-rw-r--r--.  1 john john   112 Jan 13 07:36 Rakefile
+-rw-r--r--.  1 john john  1887 Jan 13 07:36 README.txt
+-rw-r--r--.  1 john john 28399 Jan 13 07:36 setup.rb
+drwxrwxr-x.  2 john john  4096 Jan 13 07:36 tasks
+drwxrwxr-x.  3 john john  4096 Jan 13 07:36 test
+[john@FedoraDev sqlite3-ruby-1.2.5]$ 
+

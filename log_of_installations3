@@ -1,0 +1,511 @@
+-rw-r--r--.  1 root root   2132 Dec 22 08:05 error.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 et
+-rw-r--r--.  1 root root   2891 Jul 18 08:13 eti.h
+-rw-r--r--.  1 root root   9207 Jul 18 08:13 etip.h
+-rw-r--r--.  1 root root   1606 Dec 22 08:05 execinfo.h
+-rw-r--r--.  1 root root   9291 Dec 22 08:05 fcntl.h
+-rw-r--r--.  1 root root  12929 Dec 22 08:05 features.h
+-rw-r--r--.  1 root root   4670 Dec 22 08:05 fenv.h
+-rw-r--r--.  1 root root   3329 Dec 22 08:05 fmtmsg.h
+-rw-r--r--.  1 root root   2530 Dec 22 08:05 fnmatch.h
+-rw-r--r--.  1 root root  17986 Jul 18 08:13 form.h
+-rw-r--r--.  1 root root   3163 Dec 22 08:05 fpu_control.h
+-rw-r--r--.  1 root root   3115 Dec 22 08:05 fstab.h
+-rw-r--r--.  1 root root   5290 Dec 22 08:05 fts.h
+-rw-r--r--.  1 root root   5360 Dec 22 08:05 ftw.h
+-rw-r--r--.  1 root root   2526 Dec 22 08:05 _G_config.h
+-rw-r--r--.  1 root root   5339 Dec 22 08:05 gconv.h
+-rw-r--r--.  1 root root   6749 Dec 22 08:05 getopt.h
+-rw-r--r--.  1 root root   6765 Dec 22 08:05 glob.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 gnu
+-rw-r--r--.  1 root root   2416 Dec 22 08:05 gnu-versions.h
+-rw-r--r--.  1 root root   6991 Dec 22 08:05 grp.h
+-rw-r--r--.  1 root root   4611 Dec 22 08:05 gshadow.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 gssapi
+-rw-r--r--.  1 root root    181 Dec  6 11:19 gssapi.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 gssrpc
+-rw-r--r--.  1 root root   1940 Dec 22 08:05 iconv.h
+-rw-r--r--.  1 root root   4990 Dec 22 08:05 ieee754.h
+-rw-r--r--.  1 root root   2902 Dec 22 08:05 ifaddrs.h
+-rw-r--r--.  1 root root  12202 Dec 22 08:05 inttypes.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 kadm5
+-rw-r--r--.  1 root root  56808 Dec  6 11:19 kdb.h
+-rw-r--r--.  1 root root   6806 Jul 26 02:51 keyutils.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 krb5
+-rw-r--r--.  1 root root    402 Dec  6 11:19 krb5.h
+-rw-r--r--.  1 root root  16007 Dec 22 08:05 langinfo.h
+-rw-r--r--.  1 root root    126 Dec 22 08:05 lastlog.h
+-rw-r--r--.  1 root root   1465 Dec 22 08:05 libgen.h
+-rw-r--r--.  1 root root   4702 Dec 22 08:05 libintl.h
+-rw-r--r--.  1 root root  17857 Dec 22 08:05 libio.h
+-rw-r--r--.  1 root root   4596 Dec 22 08:05 limits.h
+-rw-r--r--.  1 root root   7221 Dec 22 08:05 link.h
+drwxr-xr-x. 22 root root  12288 Jan 11 19:57 linux
+-rw-r--r--.  1 root root   8032 Dec 22 08:05 locale.h
+-rw-r--r--.  1 root root   6671 Dec 22 08:05 malloc.h
+-rw-r--r--.  1 root root  16230 Dec 22 08:05 math.h
+-rw-r--r--.  1 root root   2521 Dec 22 08:05 mcheck.h
+-rw-r--r--.  1 root root   1029 Dec 22 08:05 memory.h
+-rw-r--r--.  1 root root  11950 Jul 18 08:13 menu.h
+-rw-r--r--.  1 root root   3465 Dec 22 08:05 mntent.h
+-rw-r--r--.  1 root root   1835 Dec 22 08:05 monetary.h
+-rw-r--r--.  1 root root   3872 Dec 22 08:05 mqueue.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 mtd
+-rw-r--r--.  1 root root   4060 Jul 18 08:13 nc_tparm.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 ncurses
+-rw-r--r--.  1 root root   3925 Jul 18 08:13 ncurses_dll.h
+lrwxrwxrwx.  1 root root      8 Jan 11 19:57 ncurses.h -> curses.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 ncursesw
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 net
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netash
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netatalk
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netax25
+-rw-r--r--.  1 root root  28264 Dec 22 08:05 netdb.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 neteconet
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netinet
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netipx
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netiucv
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netpacket
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netrom
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netrose
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 nfs
+-rw-r--r--.  1 root root   1842 Dec 22 08:05 nl_types.h
+-rw-r--r--.  1 root root   1962 Dec 22 08:05 nss.h
+-rw-r--r--.  1 root root  19674 Dec 22 08:05 obstack.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 openssl
+-rw-r--r--.  1 root root   4062 Jul 18 08:13 panel.h
+-rw-r--r--.  1 root root   2973 Dec 22 08:05 paths.h
+-rw-r--r--.  1 root root     22 Dec 22 08:05 poll.h
+-rw-r--r--.  1 root root   6805 Dec 22 08:05 printf.h
+-rw-r--r--.  1 root root   6081 Dec  6 11:19 profile.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 protocols
+-rw-r--r--.  1 root root  40481 Dec 22 08:05 pthread.h
+-rw-r--r--.  1 root root   1610 Dec 22 08:05 pty.h
+-rw-r--r--.  1 root root   6079 Dec 22 08:05 pwd.h
+drwxr-xr-x.  2 root root   4096 Nov  2 19:28 python2.7
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 rdma
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 readline
+-rw-r--r--.  1 root root   1024 Dec 22 08:05 re_comp.h
+-rw-r--r--.  1 root root  22163 Dec 22 08:05 regex.h
+-rw-r--r--.  1 root root   7123 Dec 22 08:05 regexp.h
+-rw-r--r--.  1 root root  14855 Dec 22 08:05 resolv.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 rpc
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 rpcsvc
+-rw-r--r--.  1 root root   4730 Dec 22 08:05 sched.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 scsi
+-rw-r--r--.  1 root root   5318 Dec 22 08:05 search.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 selinux
+-rw-r--r--.  1 root root   2472 Dec 22 08:05 semaphore.h
+drwxr-xr-x.  3 root root   4096 Jan 11 19:57 sepol
+-rw-r--r--.  1 root root   4112 Dec 22 08:05 setjmp.h
+-rw-r--r--.  1 root root   1431 Dec 22 08:05 sgtty.h
+-rw-r--r--.  1 root root   5302 Dec 22 08:05 shadow.h
+-rw-r--r--.  1 root root  13662 Dec 22 08:05 signal.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 sound
+-rw-r--r--.  1 root root   6767 Dec 22 08:05 spawn.h
+-rw-r--r--.  1 root root    264 Dec 22 08:05 stab.h
+-rw-r--r--.  1 root root   8536 Dec 22 08:05 stdint.h
+-rw-r--r--.  1 root root   2873 Dec 22 08:05 stdio_ext.h
+-rw-r--r--.  1 root root  31662 Dec 22 08:05 stdio.h
+-rw-r--r--.  1 root root  34259 Dec 22 08:05 stdlib.h
+-rw-r--r--.  1 root root  22612 Dec 22 08:05 string.h
+-rw-r--r--.  1 root root   4763 Dec 22 08:05 strings.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 sys
+-rw-r--r--.  1 root root     25 Dec 22 08:05 syscall.h
+-rw-r--r--.  1 root root   5232 Dec 22 08:05 sysexits.h
+-rw-r--r--.  1 root root     24 Dec 22 08:05 syslog.h
+-rw-r--r--.  1 root root   3771 Dec 22 08:05 tar.h
+drwxr-xr-x.  2 root root   4096 Feb  9  2011 telepathy-1.0
+-rw-r--r--.  1 root root   3479 Jul 18 08:13 termcap.h
+-rw-r--r--.  1 root root   7335 Jul 18 08:13 term_entry.h
+-rw-r--r--.  1 root root  39554 Jul 18 08:13 term.h
+-rw-r--r--.  1 root root    214 Dec 22 08:05 termio.h
+-rw-r--r--.  1 root root   3640 Dec 22 08:05 termios.h
+-rw-r--r--.  1 root root  18610 Dec 22 08:05 tgmath.h
+-rw-r--r--.  1 root root  16092 Dec 22 08:05 thread_db.h
+-rw-r--r--.  1 root root  12525 Jul 18 08:13 tic.h
+-rw-r--r--.  1 root root  13531 Dec 22 08:05 time.h
+-rw-r--r--.  1 root root   2496 Dec 22 08:05 ttyent.h
+-rw-r--r--.  1 root root   2015 Dec 22 08:05 ucontext.h
+-rw-r--r--.  1 root root   1657 Dec 22 08:05 ulimit.h
+-rw-r--r--.  1 root root   3099 Jul 18 08:13 unctrl.h
+-rw-r--r--.  1 root root  42981 Dec 22 08:05 unistd.h
+-rw-r--r--.  1 root root     23 Dec 22 08:05 ustat.h
+-rw-r--r--.  1 root root   1603 Dec 22 08:05 utime.h
+-rw-r--r--.  1 root root   3334 Dec 22 08:05 utmp.h
+-rw-r--r--.  1 root root   4203 Dec 22 08:05 utmpx.h
+-rw-r--r--.  1 root root   2029 Dec 22 08:05 values.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 video
+-rw-r--r--.  1 root root     22 Dec 22 08:05 wait.h
+-rw-r--r--.  1 root root  32361 Dec 22 08:05 wchar.h
+-rw-r--r--.  1 root root  11227 Dec 22 08:05 wctype.h
+-rw-r--r--.  1 root root   2592 Dec 22 08:05 wordexp.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 xen
+-rw-r--r--.  1 root root   1771 Dec 22 08:05 xlocale.h
+-rw-r--r--.  1 root root  54225 May 30  2011 yaml.h
+-rw-r--r--.  1 root root  13357 Nov 11 09:29 zconf.h
+-rw-r--r--.  1 root root  79565 Nov 11 09:29 zlib.h
+[john@FedoraDev include]$ yum install sqlite3-devel
+Loaded plugins: langpacks, presto, refresh-packagekit
+You need to be root to perform this command.
+[john@FedoraDev include]$ sudo yum install sqlite3-devel
+[sudo] password for john: 
+Loaded plugins: langpacks, presto, refresh-packagekit
+rpmfusion-free                                           | 2.7 kB     00:00     
+rpmfusion-free-updates                                   | 3.3 kB     00:00     
+rpmfusion-nonfree                                        | 2.7 kB     00:00     
+rpmfusion-nonfree-updates                                | 3.3 kB     00:00     
+updates/metalink                                         |  18 kB     00:00     
+Setting up Install Process
+No package sqlite3-devel available.
+Error: Nothing to do
+[john@FedoraDev include]$ sudo yum install sqlite-devel
+Loaded plugins: langpacks, presto, refresh-packagekit
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package sqlite-devel.x86_64 0:3.7.7.1-1.fc16 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch          Version                  Repository     Size
+================================================================================
+Installing:
+ sqlite-devel        x86_64        3.7.7.1-1.fc16           fedora         95 k
+
+Transaction Summary
+================================================================================
+Install       1 Package
+
+Total download size: 95 k
+Installed size: 95 k
+Is this ok [y/N]: y
+Downloading Packages:
+sqlite-devel-3.7.7.1-1.fc16.x86_64.rpm                   |  95 kB     00:00     
+Running Transaction Check
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : sqlite-devel-3.7.7.1-1.fc16.x86_64                           1/1 
+
+Installed:
+  sqlite-devel.x86_64 0:3.7.7.1-1.fc16                                          
+
+Complete!
+[john@FedoraDev include]$ sqlite-devel --version
+bash: sqlite-devel: command not found...
+[john@FedoraDev include]$ sudo yum install libxml2-devel
+Loaded plugins: langpacks, presto, refresh-packagekit
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package libxml2-devel.x86_64 0:2.7.8-6.fc16 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package               Arch           Version              Repository      Size
+================================================================================
+Installing:
+ libxml2-devel         x86_64         2.7.8-6.fc16         fedora         1.0 M
+
+Transaction Summary
+================================================================================
+Install       1 Package
+
+Total download size: 1.0 M
+Installed size: 1.0 M
+Is this ok [y/N]: y
+Downloading Packages:
+libxml2-devel-2.7.8-6.fc16.x86_64.rpm                    | 1.0 MB     00:02     
+Running Transaction Check
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : libxml2-devel-2.7.8-6.fc16.x86_64                            1/1 
+
+Installed:
+  libxml2-devel.x86_64 0:2.7.8-6.fc16                                           
+
+Complete!
+[john@FedoraDev include]$ sudo yum install libxslt-devel
+Loaded plugins: langpacks, presto, refresh-packagekit
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package libxslt-devel.x86_64 0:1.1.26-8.fc16 will be installed
+--> Processing Dependency: libgcrypt-devel for package: libxslt-devel-1.1.26-8.fc16.x86_64
+--> Running transaction check
+---> Package libgcrypt-devel.x86_64 0:1.5.0-2.fc16 will be installed
+--> Processing Dependency: libgpg-error-devel for package: libgcrypt-devel-1.5.0-2.fc16.x86_64
+--> Running transaction check
+---> Package libgpg-error-devel.x86_64 0:1.10-1.fc16 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                  Arch         Version               Repository    Size
+================================================================================
+Installing:
+ libxslt-devel            x86_64       1.1.26-8.fc16         fedora       305 k
+Installing for dependencies:
+ libgcrypt-devel          x86_64       1.5.0-2.fc16          fedora       122 k
+ libgpg-error-devel       x86_64       1.10-1.fc16           fedora        14 k
+
+Transaction Summary
+================================================================================
+Install       3 Packages
+
+Total download size: 441 k
+Installed size: 441 k
+Is this ok [y/N]: y
+Downloading Packages:
+(1/3): libgcrypt-devel-1.5.0-2.fc16.x86_64.rpm           | 122 kB     00:00     
+(2/3): libgpg-error-devel-1.10-1.fc16.x86_64.rpm         |  14 kB     00:00     
+(3/3): libxslt-devel-1.1.26-8.fc16.x86_64.rpm            | 305 kB     00:00     
+--------------------------------------------------------------------------------
+Total                                           307 kB/s | 441 kB     00:01     
+Running Transaction Check
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : libgpg-error-devel-1.10-1.fc16.x86_64                        1/3 
+  Installing : libgcrypt-devel-1.5.0-2.fc16.x86_64                          2/3 
+  Installing : libxslt-devel-1.1.26-8.fc16.x86_64                           3/3 
+
+Installed:
+  libxslt-devel.x86_64 0:1.1.26-8.fc16                                          
+
+Dependency Installed:
+  libgcrypt-devel.x86_64 0:1.5.0-2.fc16 libgpg-error-devel.x86_64 0:1.10-1.fc16
+
+Complete!
+[john@FedoraDev include]$ gem install sqlite3-ruby -v '1.2.5'
+Building native extensions.  This could take a while...
+Successfully installed sqlite3-ruby-1.2.5
+1 gem installed
+Installing ri documentation for sqlite3-ruby-1.2.5...
+Installing RDoc documentation for sqlite3-ruby-1.2.5...
+[john@FedoraDev include]$ pwd
+/usr/include
+[john@FedoraDev include]$ ls -l
+total 2328
+-rw-r--r--.  1 root root   7502 Dec 22 08:05 aio.h
+-rw-r--r--.  1 root root   2115 Dec 22 08:05 aliases.h
+-rw-r--r--.  1 root root   1289 Dec 22 08:05 alloca.h
+-rw-r--r--.  1 root root   4351 Dec 22 08:05 a.out.h
+-rw-r--r--.  1 root root  26521 Dec 22 08:05 argp.h
+-rw-r--r--.  1 root root   7308 Dec 22 08:05 argz.h
+-rw-r--r--.  1 root root   1792 Dec 22 08:05 ar.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 arpa
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 asm
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 asm-generic
+-rw-r--r--.  1 root root   3506 Dec 22 08:05 assert.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 bits
+-rw-r--r--.  1 root root   1489 Dec 22 08:05 byteswap.h
+drwxr-xr-x.  3 root root   4096 Jan 11 19:57 c++
+-rw-r--r--.  1 root root   3557 Dec 22 08:05 complex.h
+-rw-r--r--.  1 root root   2335 Dec 22 08:05 cpio.h
+-rw-r--r--.  1 root root   5938 Jan  3 11:58 cpufreq.h
+-rw-r--r--.  1 root root   2341 Dec 22 08:05 crypt.h
+-rw-r--r--.  1 root root  11867 Dec 22 08:05 ctype.h
+-rw-r--r--.  1 root root   6582 Jul 18 08:13 cursesapp.h
+-rw-r--r--.  1 root root  27646 Jul 18 08:13 cursesf.h
+-rw-r--r--.  1 root root  93842 Jul 18 08:13 curses.h
+-rw-r--r--.  1 root root  19502 Jul 18 08:13 cursesm.h
+-rw-r--r--.  1 root root   8473 Jul 18 08:13 cursesp.h
+-rw-r--r--.  1 root root  49264 Jul 18 08:13 cursesw.h
+-rw-r--r--.  1 root root   7304 Jul 18 08:13 cursslk.h
+-rw-r--r--.  1 root root  12771 Dec 22 08:05 dirent.h
+-rw-r--r--.  1 root root   7117 Dec 22 08:05 dlfcn.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 drm
+-rw-r--r--.  1 root root 117517 Dec 22 08:05 elf.h
+-rw-r--r--.  1 root root   2991 Dec 22 08:05 endian.h
+-rw-r--r--.  1 root root   2962 Dec 22 08:05 envz.h
+-rw-r--r--.  1 root root   2313 Dec 22 08:05 err.h
+-rw-r--r--.  1 root root   2452 Dec 22 08:05 errno.h
+-rw-r--r--.  1 root root   2132 Dec 22 08:05 error.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 et
+-rw-r--r--.  1 root root   2891 Jul 18 08:13 eti.h
+-rw-r--r--.  1 root root   9207 Jul 18 08:13 etip.h
+-rw-r--r--.  1 root root   1606 Dec 22 08:05 execinfo.h
+-rw-r--r--.  1 root root   9291 Dec 22 08:05 fcntl.h
+-rw-r--r--.  1 root root  12929 Dec 22 08:05 features.h
+-rw-r--r--.  1 root root   4670 Dec 22 08:05 fenv.h
+-rw-r--r--.  1 root root   3329 Dec 22 08:05 fmtmsg.h
+-rw-r--r--.  1 root root   2530 Dec 22 08:05 fnmatch.h
+-rw-r--r--.  1 root root  17986 Jul 18 08:13 form.h
+-rw-r--r--.  1 root root   3163 Dec 22 08:05 fpu_control.h
+-rw-r--r--.  1 root root   3115 Dec 22 08:05 fstab.h
+-rw-r--r--.  1 root root   5290 Dec 22 08:05 fts.h
+-rw-r--r--.  1 root root   5360 Dec 22 08:05 ftw.h
+-rw-r--r--.  1 root root   2526 Dec 22 08:05 _G_config.h
+-rw-r--r--.  1 root root   5339 Dec 22 08:05 gconv.h
+-rw-r--r--.  1 root root  73326 Aug 14 22:09 gcrypt.h
+-rw-r--r--.  1 root root   7348 Aug 14 22:09 gcrypt-module.h
+-rw-r--r--.  1 root root   6749 Dec 22 08:05 getopt.h
+-rw-r--r--.  1 root root   6765 Dec 22 08:05 glob.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 gnu
+-rw-r--r--.  1 root root   2416 Dec 22 08:05 gnu-versions.h
+-rw-r--r--.  1 root root  23522 Jul 15 06:01 gpg-error.h
+-rw-r--r--.  1 root root   6991 Dec 22 08:05 grp.h
+-rw-r--r--.  1 root root   4611 Dec 22 08:05 gshadow.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 gssapi
+-rw-r--r--.  1 root root    181 Dec  6 11:19 gssapi.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 gssrpc
+-rw-r--r--.  1 root root   1940 Dec 22 08:05 iconv.h
+-rw-r--r--.  1 root root   4990 Dec 22 08:05 ieee754.h
+-rw-r--r--.  1 root root   2902 Dec 22 08:05 ifaddrs.h
+-rw-r--r--.  1 root root  12202 Dec 22 08:05 inttypes.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 kadm5
+-rw-r--r--.  1 root root  56808 Dec  6 11:19 kdb.h
+-rw-r--r--.  1 root root   6806 Jul 26 02:51 keyutils.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 krb5
+-rw-r--r--.  1 root root    402 Dec  6 11:19 krb5.h
+-rw-r--r--.  1 root root  16007 Dec 22 08:05 langinfo.h
+-rw-r--r--.  1 root root    126 Dec 22 08:05 lastlog.h
+drwxr-xr-x.  2 root root   4096 Jan 13 18:03 libexslt
+-rw-r--r--.  1 root root   1465 Dec 22 08:05 libgen.h
+-rw-r--r--.  1 root root   4702 Dec 22 08:05 libintl.h
+-rw-r--r--.  1 root root  17857 Dec 22 08:05 libio.h
+drwxr-xr-x.  3 root root   4096 Jan 13 18:02 libxml2
+drwxr-xr-x.  2 root root   4096 Jan 13 18:03 libxslt
+-rw-r--r--.  1 root root   4596 Dec 22 08:05 limits.h
+-rw-r--r--.  1 root root   7221 Dec 22 08:05 link.h
+drwxr-xr-x. 22 root root  12288 Jan 11 19:57 linux
+-rw-r--r--.  1 root root   8032 Dec 22 08:05 locale.h
+-rw-r--r--.  1 root root   6671 Dec 22 08:05 malloc.h
+-rw-r--r--.  1 root root  16230 Dec 22 08:05 math.h
+-rw-r--r--.  1 root root   2521 Dec 22 08:05 mcheck.h
+-rw-r--r--.  1 root root   1029 Dec 22 08:05 memory.h
+-rw-r--r--.  1 root root  11950 Jul 18 08:13 menu.h
+-rw-r--r--.  1 root root   3465 Dec 22 08:05 mntent.h
+-rw-r--r--.  1 root root   1835 Dec 22 08:05 monetary.h
+-rw-r--r--.  1 root root   3872 Dec 22 08:05 mqueue.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 mtd
+-rw-r--r--.  1 root root   4060 Jul 18 08:13 nc_tparm.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 ncurses
+-rw-r--r--.  1 root root   3925 Jul 18 08:13 ncurses_dll.h
+lrwxrwxrwx.  1 root root      8 Jan 11 19:57 ncurses.h -> curses.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 ncursesw
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 net
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netash
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netatalk
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netax25
+-rw-r--r--.  1 root root  28264 Dec 22 08:05 netdb.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 neteconet
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netinet
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netipx
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netiucv
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netpacket
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netrom
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 netrose
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 nfs
+-rw-r--r--.  1 root root   1842 Dec 22 08:05 nl_types.h
+-rw-r--r--.  1 root root   1962 Dec 22 08:05 nss.h
+-rw-r--r--.  1 root root  19674 Dec 22 08:05 obstack.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 openssl
+-rw-r--r--.  1 root root   4062 Jul 18 08:13 panel.h
+-rw-r--r--.  1 root root   2973 Dec 22 08:05 paths.h
+-rw-r--r--.  1 root root     22 Dec 22 08:05 poll.h
+-rw-r--r--.  1 root root   6805 Dec 22 08:05 printf.h
+-rw-r--r--.  1 root root   6081 Dec  6 11:19 profile.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 protocols
+-rw-r--r--.  1 root root  40481 Dec 22 08:05 pthread.h
+-rw-r--r--.  1 root root   1610 Dec 22 08:05 pty.h
+-rw-r--r--.  1 root root   6079 Dec 22 08:05 pwd.h
+drwxr-xr-x.  2 root root   4096 Nov  2 19:28 python2.7
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 rdma
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 readline
+-rw-r--r--.  1 root root   1024 Dec 22 08:05 re_comp.h
+-rw-r--r--.  1 root root  22163 Dec 22 08:05 regex.h
+-rw-r--r--.  1 root root   7123 Dec 22 08:05 regexp.h
+-rw-r--r--.  1 root root  14855 Dec 22 08:05 resolv.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 rpc
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 rpcsvc
+-rw-r--r--.  1 root root   4730 Dec 22 08:05 sched.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 scsi
+-rw-r--r--.  1 root root   5318 Dec 22 08:05 search.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 selinux
+-rw-r--r--.  1 root root   2472 Dec 22 08:05 semaphore.h
+drwxr-xr-x.  3 root root   4096 Jan 11 19:57 sepol
+-rw-r--r--.  1 root root   4112 Dec 22 08:05 setjmp.h
+-rw-r--r--.  1 root root   1431 Dec 22 08:05 sgtty.h
+-rw-r--r--.  1 root root   5302 Dec 22 08:05 shadow.h
+-rw-r--r--.  1 root root  13662 Dec 22 08:05 signal.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 sound
+-rw-r--r--.  1 root root   6767 Dec 22 08:05 spawn.h
+-rw-r--r--.  1 root root  23222 Jul 13  2011 sqlite3ext.h
+-rw-r--r--.  1 root root 320830 Jul 13  2011 sqlite3.h
+-rw-r--r--.  1 root root    264 Dec 22 08:05 stab.h
+-rw-r--r--.  1 root root   8536 Dec 22 08:05 stdint.h
+-rw-r--r--.  1 root root   2873 Dec 22 08:05 stdio_ext.h
+-rw-r--r--.  1 root root  31662 Dec 22 08:05 stdio.h
+-rw-r--r--.  1 root root  34259 Dec 22 08:05 stdlib.h
+-rw-r--r--.  1 root root  22612 Dec 22 08:05 string.h
+-rw-r--r--.  1 root root   4763 Dec 22 08:05 strings.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 sys
+-rw-r--r--.  1 root root     25 Dec 22 08:05 syscall.h
+-rw-r--r--.  1 root root   5232 Dec 22 08:05 sysexits.h
+-rw-r--r--.  1 root root     24 Dec 22 08:05 syslog.h
+-rw-r--r--.  1 root root   3771 Dec 22 08:05 tar.h
+drwxr-xr-x.  2 root root   4096 Feb  9  2011 telepathy-1.0
+-rw-r--r--.  1 root root   3479 Jul 18 08:13 termcap.h
+-rw-r--r--.  1 root root   7335 Jul 18 08:13 term_entry.h
+-rw-r--r--.  1 root root  39554 Jul 18 08:13 term.h
+-rw-r--r--.  1 root root    214 Dec 22 08:05 termio.h
+-rw-r--r--.  1 root root   3640 Dec 22 08:05 termios.h
+-rw-r--r--.  1 root root  18610 Dec 22 08:05 tgmath.h
+-rw-r--r--.  1 root root  16092 Dec 22 08:05 thread_db.h
+-rw-r--r--.  1 root root  12525 Jul 18 08:13 tic.h
+-rw-r--r--.  1 root root  13531 Dec 22 08:05 time.h
+-rw-r--r--.  1 root root   2496 Dec 22 08:05 ttyent.h
+-rw-r--r--.  1 root root   2015 Dec 22 08:05 ucontext.h
+-rw-r--r--.  1 root root   1657 Dec 22 08:05 ulimit.h
+-rw-r--r--.  1 root root   3099 Jul 18 08:13 unctrl.h
+-rw-r--r--.  1 root root  42981 Dec 22 08:05 unistd.h
+-rw-r--r--.  1 root root     23 Dec 22 08:05 ustat.h
+-rw-r--r--.  1 root root   1603 Dec 22 08:05 utime.h
+-rw-r--r--.  1 root root   3334 Dec 22 08:05 utmp.h
+-rw-r--r--.  1 root root   4203 Dec 22 08:05 utmpx.h
+-rw-r--r--.  1 root root   2029 Dec 22 08:05 values.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 video
+-rw-r--r--.  1 root root     22 Dec 22 08:05 wait.h
+-rw-r--r--.  1 root root  32361 Dec 22 08:05 wchar.h
+-rw-r--r--.  1 root root  11227 Dec 22 08:05 wctype.h
+-rw-r--r--.  1 root root   2592 Dec 22 08:05 wordexp.h
+drwxr-xr-x.  2 root root   4096 Jan 11 19:57 xen
+-rw-r--r--.  1 root root   1771 Dec 22 08:05 xlocale.h
+-rw-r--r--.  1 root root  54225 May 30  2011 yaml.h
+-rw-r--r--.  1 root root  13357 Nov 11 09:29 zconf.h
+-rw-r--r--.  1 root root  79565 Nov 11 09:29 zlib.h
+[john@FedoraDev include]$ cd ~
+[john@FedoraDev ~]$ ls -l
+total 2112
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Desktop
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Documents
+drwxr-xr-x.  3 john john    4096 Jan 11 22:00 Downloads
+drwx------. 18 john john    4096 Jan  6 09:22 Dropbox
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Music
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Pictures
+-rw-rw-r--.  1 john john    4901 Jan  6 17:15 psout.txt
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Public
+drwxrwxr-x.  3 john john    4096 Jan 12 18:31 rails_projects
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Templates
+-rw-r--r--.  1 john john    2657 Jan 11 16:15 todo.cfg
+-rw-r--r--.  1 john john    2635 Jan 11 16:13 todo.cfg~
+-rwxr-xr-x.  1 john john   33919 Sep 13 17:18 todo.sh
+drwxr-xr-x.  2 john john    4096 Jan  5 19:31 Videos
+-rw-rw-r--.  1 john john 2067307 Jan  7 10:03 yumlistavailable
+[john@FedoraDev ~]$ cd ra*
+[john@FedoraDev rails_projects]$ cd fi*
+[john@FedoraDev first_app]$ ls
+app        db       Gemfile~  log_of_installations   Rakefile  test
+config     doc      lib       log_of_installations2  README    tmp
+config.ru  Gemfile  log       public                 script    vendor
+[john@FedoraDev first_app]$ 
+
